@@ -1,7 +1,7 @@
 
 # SFW - Sensible Firewall Logs
 
-SFW is a no frills ufw log parser with geolocation identification fully written in bash script. No need to install any other dependencies such as python, etc. As long as it supports bash, SFW will work.
+SFW is a no frills ufw/iptable log parser with geolocation identification. It is fully written in bash script. No need to install any other dependencies such as python, etc. As long as it supports bash, SFW will work.
 
 SFW parses log and outputs:
 - .ods (recommended)
@@ -33,4 +33,15 @@ Examples:
 2. Parse logs with Geolocation checking and generate .csv files
 ```
 ./SFW.sh -o mylog -g -c ./example/ufw.log
+```
+
+## Generated .ods file preview 
+![Example1](https://github.com/incompetent-tester/sfw/blob/master/doc/image1.png)
+
+### Feel free to contribute to this project.
+
+### Wanna buy me a beer ?
+I do accept monero. Thank you very much.
+```
+41fezqfD3syGsUQNnR8t4hQghCJG61YWmHkYHMmYcNFoMgAg3VPhpXi7J94zdqqW7uBMrTTJS1FwNEZhCsoGMa2T3vQq82A
 ```
